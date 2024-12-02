@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HD Shoes Footwear</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #397096;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #2396c4;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: hsl(140, 36%, 95%);
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-info {
+            padding: 15px;
+        }
+
+        .product-info h3 {
+            margin: 0 0 10px;
+        }
+
+        .product-info p {
+            margin: 0;
+            font-size: 16px;
+            color: #161515;
+        }
+
+        .product-info .price {
+            font-size: 20px;
+            color: #bd1313;
+            margin: 10px 0;
+        }
+
+        .product-info button {
+            background-color: #4ccf6b;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .product-info button:hover {
+            background-color: hsl(24, 73%, 47%);
+        }
+
+        footer {
+            text-align: center;
+            background-color: #141616;
+            color: #cfd4df;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> HD Shoes Footwear <img src="" alt=""></h1>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Hombres</a>
+        <a href="#">Mujeres</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Contacto</a>
+        <a href="#">buscar productos  </a>
+        <a href="#"><img src="9284424.png" alt=""width="60"> </a>
+    </nav>
+
+    <div class="container">
+        <!--  Producto 1 -->
+        <div class="product-card">
+            <img src="imagenes/tenis en cuero.jpg" alt="logo"width="300">
+            <div class="product-info">
+                <h3>Zapato sport en cuero</h3>
+                <p>Comodidad y estilo para un dia de oficina o Casual.</p>
+                <div class="price">cop180.000</div>
+                <button>Agregar al carrito</button>
+            </div>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="product-card">
+            <img src="imagenes/botines.jpeg" alt="logo"width="300"></h2>
+            <div class="product-info">
+                <h3>botines en gamuza</h3>
+                <p>Ideal para un look relajado.</p>
+                <div class="price">Cop165.000</div>
+                <button>Agregar al carrito</button>
+            </div>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="product-card">
+            <img src="imagenes/mocasin.jpg" alt="logo"></h2>
+            <div class="product-info">
+                <h3>mocasines en cuero</h3>            
+                <p>Resistentes y elegantes para cualquier ocasión.</p>
+                <div class="price">Cop165.000</div>
+                <button>Agregar al carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 HD Shoes Footwear. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

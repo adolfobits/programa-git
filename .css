@@ -1,0 +1,40 @@
+.paragraph-3 {
+
+
+	width: 264px;
+	height: 43px;
+	color: #232323;
+	font-family: "Inter";
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.4;S
+	text-align: left;}
+
+.check-circle-icon-1 {
+	width: 146px;
+	height: 146px;
+	background: #629C44;
+}
+.screenshot_11-3 {
+	width: 168px;
+	height: 94px;
+	background: #00000000;
+}
+.paragraph-1-copy-4 {
+	width: 244px;
+	height: 47px;
+	color: #444444;
+	font-family: "Figtree";
+	font-weight: 800;
+	font-size: 26px;
+	line-height: 1;
+	letter-spacing: -0.2px;
+	text-align: left;
+}
+.rectangle-9 {
+	width: 350px;
+	height: 652px;
+	padding: 8px 8px 8px 8px;
+	background: #FAFAFA;
+	border-radius: 44px 44px 44px 44px;
+}
