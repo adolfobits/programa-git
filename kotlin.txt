@@ -1,2 +1,2 @@
- usuario: adolfobits
- correo: rodriguezadolfo245@gmai.com
+nombre: adolfo
+correo: rodriguezadolfo245@gmail.com
